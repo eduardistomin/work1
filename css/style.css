@@ -1,0 +1,242 @@
+body {
+  font-family: Open Sans;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+
+  height: 568px;
+  background-color: #0b0f33;
+  background-image: url(../img/football320.jpg);
+  background-size: cover;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	padding-top: 33px;
+	margin-bottom: 133px;
+}
+
+h2.motto1, h2.motto2 {
+
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.motto1 {
+	margin-left: 20px;
+
+}
+
+.motto2 {
+	margin-left: 40px;
+}
+
+
+
+
+.button {
+	display: block;
+	margin: 6px auto;
+	width: 280px;
+	height: 37px;
+	background-color: #5e42b0;
+	border-radius: 30px;
+	text-align: center;
+
+}
+
+.apple::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+
+  margin-top: 5px;
+  background-image: url("../img/svg/apple_logo_black.svg");
+  background-repeat: no-repeat;
+}
+
+.google::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-image: url("../img/svg/google-play.svg");
+  background-repeat: no-repeat;
+}
+
+
+.button__label {
+	text-align: left;
+  display: inline-block;
+  width: 26%;
+  vertical-align: middle;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8px;
+  margin-top: 5px;
+
+}
+.name {
+	line-height: 0;
+}
+
+.pic {
+	text-align: center;
+}
+
+.name h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 55px;
+	color: #e7e7e7;
+}
+
+.list h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 23px;
+	color: #c1c1c1;
+
+}
+.list p {
+	font-size: 15px;
+}
+.list {
+	padding: 60px 20px;
+}
+
+.list h3::before {
+  content: "";
+  width: 20px;
+   height: 18px;
+   display: inline-block;
+   float: left;
+   margin:8px 5px 0 0;
+  background:url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.list1 h3::before, .list4 h3::before {background-position:-85px 0;}
+.list2 h3::before, .list5 h3::before {background-position:-58px 0;}
+.list3 h3::before {background-position:-31px 0;}
+.list6 h3::before {background-position:-10px 0;}
+
+.list2, .list5 {
+	background-color: #f5f4f9;
+}
+
+.list3 {
+	background-color: #5e42b0;
+}
+
+.list6 {
+	background-color: #090c35;
+}
+
+.list3 p, .list6 p {
+	color: #ffffff;
+}
+
+.instr img {
+	width: 100%;
+  }
+
+div.instr {
+  position: relative;
+}
+
+.cube {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #5e42b0;
+  left: 20px;
+  top: 290px;
+
+}
+
+div.num::before {
+  content: "";
+  width: 18px;
+   height: 20px;
+   display: inline-block;
+   float: left;
+   margin: 25px 25px;
+  background:url(../img/sprite2.png);
+  background-repeat: no-repeat;
+}
+
+div.num1::before {background-position:-44px 0;}
+div.num2::before {background-position:-20px 0;}
+div.num3::before {background-position: 0 0;}
+
+.instr h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 28px;
+	color: #e7e7e7;
+}
+
+.instr p {
+	font-size: 16px;
+}
+
+.text {
+	padding: 0px 20px 80px 20px;
+}
+
+footer {
+  margin: 0 auto;
+  height: 568px;
+  background-color: #0b0f33;
+  background-image: url(../img/game320.jpg);
+  background-size: cover;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.cube2 {
+
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  background-color: #6f4fcb;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logo_foot {
+margin-top: 10px;
+
+}
+
+.download {
+  margin-top: 57px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.motto3 {
+  font-size: 14px;
+  color: #9b8ec1;
+  margin-bottom: 75px;
+}
+
+.logo_foot2 {
+  margin-top: 80px;
+}
