@@ -1,6 +1,6 @@
 body {
   font-family: Open Sans;
-  max-width: 320px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -29,12 +29,12 @@ h2.motto1, h2.motto2 {
 }
 
 .motto1 {
-	margin-left: 20px;
+	margin-left: 6.3%;
 
 }
 
 .motto2 {
-	margin-left: 40px;
+	margin-left: 12.5%;
 }
 
 
@@ -42,7 +42,7 @@ h2.motto1, h2.motto2 {
 
 .button {
 	display: block;
-	margin: 6px auto;
+	margin: 12px auto;
 	width: 280px;
 	height: 37px;
 	background-color: #5e42b0;
@@ -153,8 +153,8 @@ h2.motto1, h2.motto2 {
 	width: 100%;
   }
 
-div.instr {
-  position: relative;
+div.instr_image {
+position: relative;
 }
 
 .cube {
@@ -163,7 +163,7 @@ div.instr {
   height: 70px;
   background-color: #5e42b0;
   left: 20px;
-  top: 290px;
+  bottom: -10px;
 
 }
 
